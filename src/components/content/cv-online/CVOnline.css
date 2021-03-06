@@ -1,0 +1,80 @@
+.containerCV {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+.headerCV {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.headerCV > div {
+  display: flex;
+}
+
+.headerCV > div:nth-child(3) > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 100px;
+}
+.headerCV > div > p {
+  margin: 1px 0px;
+}
+.headerCV > div:nth-child(2) > div > p {
+  margin: 0;
+  text-align: end;
+  font-style: italic;
+}
+.headerCV > div:nth-child(1) > div > p {
+  margin: 0;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.detailsCV {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.detailsCV > div {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.detailsCV > div > div:nth-child(1) {
+  font-size: 21px;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.detailsCV > div > div:nth-child(2) {
+  font-size: 21px;
+  display: flex;
+  flex: 7;
+  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.lineCV {
+  width: 90%;
+  height: 20px;
+  background-color: blue;
+  border-radius: 10px;
+}
+.titleCV {
+  font-family: "Roboto", sans-serif;
+  color: blue;
+}

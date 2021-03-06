@@ -1,0 +1,6 @@
+.content {
+  padding: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}

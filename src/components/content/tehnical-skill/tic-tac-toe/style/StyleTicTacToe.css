@@ -1,0 +1,97 @@
+#containerTicTacToe {
+  flex: 1;
+  padding: 10px;
+  margin: 0;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.gameBodyContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.activePlayerText {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.inActivePlayerText {
+  font-size: 30px;
+  color: #8d8d8d;
+  font-weight: bold;
+}
+
+.titleContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.titTacToeTitle {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  flex-wrap: wrap;
+  border: blue 2px solid;
+  border-radius: 25px;
+}
+
+.squareContainer {
+  height: 28%;
+  width: 28%;
+  margin: 2px;
+  background-color: #b47210;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.squareValue {
+  color: #2c2075;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resetButton {
+  border: white solid 2px;
+  text-align: center;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}

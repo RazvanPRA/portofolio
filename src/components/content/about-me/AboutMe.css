@@ -1,0 +1,67 @@
+.divAboutMe {
+  display: flex;
+}
+.contentAboutMe {
+  margin: 10px;
+  text-align: center;
+}
+#aboutMeContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+#aboutMeTitle {
+  display: flex;
+  justify-content: center;
+}
+#aboutMeTitle > div:nth-child(odd) {
+  margin-left: 10%;
+}
+#aboutMeTitle > div > h2 > span {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 30px;
+  background-color: #59f8e8;
+}
+#fontAboutMe {
+  font-size: 60px;
+  font-family: "Merienda", cursive;
+}
+#descriptionAboutMe {
+  display: flex;
+  justify-content: center;
+}
+#descriptionAboutMe > div:nth-child(even) {
+  padding: 5% 2px;
+  background-color: #59f8e8;
+}
+#descriptionAboutMe {
+  justify-content: center;
+}
+#descriptionAboutMe > div:nth-child(odd) > div:nth-child(even) {
+  padding: 2px 20px;
+  background-color: #59f8e8;
+}
+#descriptionAboutMe > div:nth-child(3) > div:nth-child(odd) {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#descriptionAboutMe > div:nth-child(1) > div:nth-child(1) {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#descriptionAboutMe > div:nth-child(1) > div:nth-child(3) {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#descriptionAboutMe > div:nth-child(odd) > div:nth-child(odd) {
+  font-size: 15px;
+}
+.spaceInFrontText {
+  margin-right: 20px;
+}
+.textAboutMeSize {
+  font-size: 20px;
+  font-family: "Courgette", cursive;
+}

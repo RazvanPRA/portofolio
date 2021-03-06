@@ -1,0 +1,88 @@
+.flexDivFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #03191e;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.flexIcon {
+  display: flex;
+  flex-direction: row;
+}
+.flexIcon > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+}
+.gitHub,
+.linkedIn,
+.facebook {
+  display: flex;
+}
+.gitHub {
+  width: 62px;
+  height: 61.2px;
+  background-color: rgba(16, 192, 60, 0.336);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+.gitHub:hover {
+  background-color: powderblue;
+  transition: background-color 1s;
+}
+.gitHub > a > img {
+  margin-top: 9px;
+  width: 62px;
+  height: 61.2px;
+}
+.linkedIn {
+  width: 62px;
+  height: 61.2px;
+  background-color: rgba(16, 192, 60, 0.336);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+.linkedIn:hover {
+  background-color: powderblue;
+  transition: background-color 1s;
+}
+.linkedIn > a > img {
+  margin-left: 3px;
+  width: 50px;
+  height: 49px;
+}
+.facebook {
+  width: 62px;
+  height: 61.2px;
+  background-color: rgba(16, 192, 60, 0.336);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+.facebook:hover {
+  background-color: powderblue;
+  transition: background-color 1s;
+}
+.facebook > a > img {
+  margin-top: 9px;
+  margin-right: 3px;
+  width: 31px;
+  height: 42px;
+}

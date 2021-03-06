@@ -1,0 +1,53 @@
+#carousel {
+  display: flex;
+}
+.carouselDiv {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  cursor: pointer;
+}
+#AMImg {
+  width: 100%;
+  height: 100%;
+}
+#CVImg {
+  width: 100%;
+  height: 100%;
+}
+#AquariumImg {
+  width: 100%;
+  height: 100%;
+}
+.homeTextH1 {
+  margin: 0;
+}
+.textHome {
+  text-align: center;
+  margin: 0;
+}
+.buttonHomeDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.buttonHome {
+  width: 120px;
+  height: 60px;
+  border: 0px;
+  margin: 0px 10px;
+  background-color: #59f8e8;
+  text-decoration: none;
+  padding: 0px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.buttonHome:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.buttonHome > h5 > p {
+  margin: 0;
+}
