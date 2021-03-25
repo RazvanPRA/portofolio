@@ -135,7 +135,7 @@ function CVOnline() {
         <div>
           <div>17.02-05.03.2021</div>
           <div>
-            Curriculum Vitae - Preparation for employment as a front-end Web
+            My online CV - Preparation for employment as a front-end Web
             Developer
           </div>
         </div>
