@@ -26,6 +26,7 @@ function App() {
       ></Content>
       <div>
         <Footer />
+        <Footer />
       </div>
     </div>
   );

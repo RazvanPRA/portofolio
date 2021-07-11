@@ -72,10 +72,9 @@ function CVOnline() {
         <div>
           <div>2016-Present</div>
           <div>
-            Sales advisor, ANIMAX XXL, Brasov, a very large and complex petshop,
-            whose policy is to focus the client and the needs of the animal by
-            offering quality services and products according to the needs and
-            evolutionary desire of the animal.
+            Sales advisor, ANIMAX XXL, Brasov, a very large and complex pet
+            store, whose focused policy meets the customer and the animal's
+            needs by providing quality services and products.
           </div>
         </div>
         <div>
